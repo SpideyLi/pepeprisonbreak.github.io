@@ -1,0 +1,181 @@
+body{
+    height:100%;
+    width:100%;
+}
+
+#home{
+    background: url('images/home.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-content:center;
+    text-align:center;
+    height:100%;
+    color:white;
+    padding-top:15%;
+}
+
+#home h1{
+    margin:0;
+}
+
+#letter{
+    background: url('images/letter.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-content:center;
+    background-color:black;
+    height:100%;
+    text-align:center;
+    padding:15% 40% 0% 40%;
+}
+
+#prison{
+    background: url('images/prison.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-content:center;
+    background-color:black;
+    height:100%;
+}
+
+#prison h1{
+    margin:0;
+    color:white;
+    text-align:center;
+}
+#prison img[name=spoon]{
+    position:absolute;
+    margin-top:500px;
+    margin-left:425px;
+    max-width:100px;
+}
+
+#prison img[name=tray]{
+    position:absolute;
+    margin-top:400px;
+    margin-left:650px;
+    max-width:275px;
+}
+
+#spoon-choice{
+    background-color:black;
+    height:100%;
+}
+#spoon-choice img{
+    position:absolute;
+    margin-left:43%;
+    max-width:200px;
+    padding-top:10%;
+}
+#spoon-choice h1{
+    margin:0;
+    color:white;
+    text-align:center;
+    padding-top:30%;
+}
+#spoon-choice a{
+    
+}
+
+#tray-choice{
+    padding-top:10%;
+    background-color:black;
+    height:100%;
+}
+#tray-choice h1{
+    margin:0;
+    color:white;
+    text-align:center;
+}
+#tray-choice span[name=tray-choice_photos]{
+    display:inline-block;
+    width:100%;
+    text-align:center;
+}
+#tray-choice img{
+    max-width:200px;
+    padding:30px;
+}
+#tray-choice a{
+    text-decoration:none;
+    color:white;
+    cursor:hand;
+}
+
+#diamond{
+    background: url('images/PrisonRoom.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-content:center;
+    height:100%;
+}
+#diamond h1{
+    margin:0;
+    color:white;
+    text-align:center;
+}
+#diamond span{
+    
+}
+
+#police{
+    text-align:center;
+    background-color:black;
+    height:100%;
+    color:white;
+    padding-top:10%;
+}
+
+#jailfree{
+    height:100%;
+    padding-top:10%;
+    color:black;
+    text-align:center;
+}
+#jailfree h1{
+    margin:0;
+}
+
+#paperclip{
+     background: url('images/cell.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-content:center;
+    height:100%;
+}
+#paperclip h1{
+    margin:0;
+    color:white;
+    padding-top:10%;
+}
+
+#unlocked h1{
+    margin:0;
+    color:black;
+    padding-top:10%;
+}
+
+#gameover{
+    background-color:black;
+    height:100%;
+    text-align:center;
+    padding-top:10%;
+}
+#gameover img{
+    max-width:400px;
+}
+#gameover h1{
+    margin:0;
+    color:white;
+    cursor:hand;
+}
